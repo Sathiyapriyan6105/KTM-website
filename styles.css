@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    margin: 0;
+}
+#showcase{
+    /* background-image:url(login\ pic.jpg);  */
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(login\ pic.jpg);
+    height: 100vh ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+#showcase h1{
+    margin-top: 200px;
+    font-size: 500%;
+    font-family:Bahnschrift;
+    color: white;
+}
+#showcase h3{
+    font-size: 300%;
+    font-family:Bahnschrift;
+    color: orangered;
+}
+#showcase h4{
+    font-size: 250%;
+    font-family:Bahnschrift;
+    color:white;
+}
+.button {
+    background-color:#FF5403;
+    padding: 10px 10px;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+  }
+.button:hover{
+    background-color:#FF5403 ;
+}
+.button:link{
+    background-color: black;
+}
+
+h1 {
+    font-size: 350%;
+}
+h2 {
+    font-size: 250%;
+}
+a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:active {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
